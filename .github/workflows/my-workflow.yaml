@@ -12,5 +12,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: final step
-          runs: echo "hello from final step job-2"
+          run: echo "hello from final step job-2"
   
