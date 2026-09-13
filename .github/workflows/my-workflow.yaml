@@ -1,0 +1,16 @@
+name: My workflow
+on: push
+jobs:
+  job-1:
+      runs-on: ubuntu-latest
+      steps:
+        - name: step 1
+          run: echo "hello from step 1"
+        - name: step 2
+          run: echo "hello from step 2"
+  final:
+      runs-on: ubuntu-latest
+      steps:
+        - name: final step
+          runs: echo "hello from final step job-2"
+  
